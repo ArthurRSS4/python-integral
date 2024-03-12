@@ -1,3 +1,4 @@
+# Para testar o código no vscode, digite no terminal: pip install scipy
 from scipy import integrate
 import os
 
