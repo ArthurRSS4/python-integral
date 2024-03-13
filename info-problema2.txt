@@ -1,0 +1,30 @@
+Exemplo de explicação para o problema 2:
+
+Este código também é um programa que ajuda as pessoas a entenderem quanto de energia elas gastam
+quando praticam diferentes tipos de exercícios, como correr, andar de bicicleta ou nadar.
+
+Alguns detalhes importantes que acontecem neste código:
+
+Taxa de Gasto Energético: 
+
+Aqui, temos algumas funções que calculam o quanto de energia uma pessoa 
+gasta enquanto faz exercícios diferentes. Por exemplo, quando alguém corre, pedala ou nada, essas 
+funções usam a velocidade do exercício para calcular quantas calorias essa pessoa está queimando por minuto.
+
+Integral Definida: 
+
+A parte interessante está na função total_energia_gasta_exercicio. Nela, usamos 
+algo chamado de "integral definida" para calcular o total de energia gasto durante um exercício. 
+Isso é como somar muitos pedacinhos pequenos de energia gasta ao longo do tempo. A função integrate.quad faz 
+isso automaticamente para nós, usando as taxas de gasto energético que calculamos anteriormente.
+
+Menu Interativo: 
+
+O programa apresenta um menu simples onde as pessoas podem escolher o tipo de exercício que 
+estão fazendo, inserir a velocidade média do exercício em quilômetros por hora (km/h) e o tempo de duração do 
+exercício em minutos. Com essas informações, o programa calcula e mostra o total de calorias queimadas durante 
+o exercício escolhido.
+
+Este programa é outra maneira útil de usar a matemática para entender melhor nossos hábitos de exercícios e 
+como eles afetam nossa saúde. É como ter um assistente digital que nos ajuda a monitorar nosso gasto de energia 
+e nos incentiva a nos mantermos ativos de maneira saudável.

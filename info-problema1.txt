@@ -1,0 +1,36 @@
+Explicação de exemplo para o problema 1:
+
+Este código é um programa que ajuda as pessoas a entenderem quanto de energia elas 
+gastam quando praticam diferentes tipos de exercícios, como correr, andar de bicicleta ou nadar.
+
+Explicando algumas partes importantes:
+
+1. Instalação de Bibliotecas:
+
+    No início, o programa verifica se tem uma biblioteca chamada "scipy" instalada. 
+    Se não tiver, ele a instala automaticamente. O "scipy" é uma biblioteca de Python que nos ajuda a 
+    fazer cálculos matemáticos complicados, como integrais (você vai entender o que é isso em breve).
+
+2. Funções Matemáticas:
+
+    O programa tem algumas funções matemáticas que ajudam a calcular o gasto de energia durante os exercícios. 
+    Por exemplo, ele calcula a velocidade média e o gasto de energia para correr, andar de bicicleta e nadar. 
+    Essas funções usam fórmulas matemáticas simples para fazer os cálculos.
+
+3. Menu de Opções:
+
+    Depois, o programa mostra um menu com opções para as pessoas escolherem o que querem fazer. 
+    Elas podem calcular o gasto de energia para um único exercício (como correr por 30 minutos) 
+    ou podem fazer uma análise mais detalhada do efeito dos exercícios na perda de peso ao longo do tempo.
+
+4. Integral Definida:
+
+    Agora, vamos falar sobre a parte complicada: a integral definida. 
+    No programa, há uma função que usa uma integral definida para calcular o total de energia gasta durante um exercício. 
+    A integral é uma ferramenta matemática que nos ajuda a somar muitos pequenos pedaços de algo ao longo do tempo. 
+    Neste caso, estamos somando pedaços pequenos de energia gasta a cada instante durante o exercício.
+    A função "spi.quad" é uma maneira de fazer essa soma automaticamente usando a biblioteca "scipy".
+
+No geral, este programa é uma maneira legal de usar a matemática para entender melhor como nosso corpo 
+gasta energia quando fazemos exercícios diferentes. É como um ajudante digital que nos dá informações 
+úteis sobre nossos hábitos de exercícios e como eles afetam nossa saúde.
